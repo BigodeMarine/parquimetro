@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estacionamento</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="controleEstacionamento">
+        <h1>Parquímetro</h1>
+
+        <label for="valor">Insira o valor em R$:</label>
+        <input type="number" id="valor" step="0.01" min="0">
+
+        <button onclick="parquimetro.processar()">Calcular Tempo</button>
+
+        <div class="erro" id="resultado"></div>
+    </div>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>

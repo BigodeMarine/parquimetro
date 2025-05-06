@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controleEstacionamento {
+    background-color: white;
+    padding: 1.875rem 2.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+    max-width: 25rem;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 1.25rem;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 0.625rem;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 0.625rem;
+    font-size: 1rem;
+    border: 0.125rem solid #333;
+    border-radius: 0.5rem;
+    margin-bottom: 0.938rem;
+    transition: border 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #5a9ee6;
+    outline: none;
+}
+
+button {
+    background-color: #5a9ee6;
+    color: white;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #417dd1;
+}
+
+#resultado {
+    margin-top: 1.25rem;
+    background-color: #f0f4ff;
+    padding: 0.938rem;
+    border-radius: 1rem;
+    color: #333;
+    font-size: 1.063rem;
+    box-shadow: inset 0 0 0.313rem rgba(0,0, 0, 0.05);
+}
+
+.erro {
+    color: red;
+    font-weight: bold;
+}
